@@ -152,16 +152,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="comment">
 						<h3>Leave a Comment</h3>
 						<div class="comment-bottom">
-							<form action="POST" data-netlify="true">
-								<input type="text" name="Name" placeholder="Name" required="">
-								<input type="email" name="Email" placeholder="Email" required="">
-
-								<input type="text" name="Subject" placeholder="Subject" required="">
-
-								<textarea name="Message" placeholder="Message..." required=""></textarea>
-
-								<input type="submit" value="Send">
-							</form>
+							<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+   
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 						</div>
 					</div>
 				</div>
