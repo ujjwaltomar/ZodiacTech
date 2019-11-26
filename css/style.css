@@ -619,13 +619,14 @@ h3.tittle-w3ls.cen {
 }
 
 .a3 {
-    background: url(../images/blog-img2.jpg) no-repeat 0px 0px;
+    background: url(../images/blog-img2.jpg) no-repeat -330px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 350px;
+	
 }
 
 .a5 {
