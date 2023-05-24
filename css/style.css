@@ -891,7 +891,7 @@ ol.carousel-indicators.two {
     font-size: 15px;
     outline: none;
     text-transform: uppercase;
-    margin: 0 0 0 -4px;
+    margin: 0 0 0;
     font-weight: 600;
     letter-spacing: 1px;
     background: #76daff;
